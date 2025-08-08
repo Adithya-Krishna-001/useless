@@ -67,7 +67,7 @@ Watch as your plant’s mood translates into music
 
 📸 Project Documentation
 Screenshots
-![Serial Monitor]
+![Serial Monitor](
 Real-time soil moisture values and Firebase updates
 
 ![Web App]
@@ -88,4 +88,3 @@ Adithya Krishna: ESP32 coding, sensor calibration, serial debugging
 
 Made with ❤️, soil vibes 🌱, and random tunes 🎶 at TinkerHub Useless Projects
 
-**Made with ❤️, detours 🌀, and light horn abuse 🚗📢 at TinkerHub Useless Projects**  
