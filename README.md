@@ -31,7 +31,7 @@ Because watering plants should be a party, not a chore.
 
 🛠 Technical Details
 💻 Software
-Microcontroller: ESP32
+Microcontroller: ESP12
 
 Languages: C++ (Arduino IDE), HTML, JavaScript
 
@@ -54,7 +54,7 @@ bash
 Copy
 Edit
 # Clone repo (if available)
-git clone <your repo link>
+git clone <useless>
 cd MoodGrow
 🚀 Run
 Flash ESP32 with provided Arduino code (update WiFi & Firebase config)
@@ -67,18 +67,18 @@ Watch as your plant’s mood translates into music
 
 📸 Project Documentation
 Screenshots
-![Serial Monitor](Add serial monitor screenshot here)
+![Serial Monitor]
 Real-time soil moisture values and Firebase updates
 
-![Web App](Add web app screenshot here)
+![Web App]
 Music player reacts to plant moods with different songs
 
 Diagrams
-![System Architecture](Add your system diagram here)
+![System Architecture]
 How data flows from soil to song
 
 🎥 Project Demo
-Video: [Add demo link here]
+Video: 
 See MoodGrow in action — when the soil’s dry, the music changes instantly!
 
 👨‍💻 Team Contributions
