@@ -1,90 +1,103 @@
-🌱 MoodGrow 🎶
-"When plants get moody, we play their tune!" – Because soil moisture deserves a playlist 🎧
 
-📌 Basic Details
-👨‍💻 Team Members
+# 🌱 MoodGrow 🎶  
+*"When plants get moody, we play their tune!"*  
+Because soil moisture deserves a playlist 🎧
 
-🏆 Team Lead: Adarsh A M
+---
 
-🛠 Member 2: Adithya Krishna
+## 📌 Basic Details
 
-📝 Project Description
-MoodGrow is a totally unnecessary but hilariously fun project that uses an ESP32 and a soil moisture sensor 🌿 to detect your plant’s mood and plays songs on a website 🎵 accordingly. Dry soil? Sad tunes. Well-watered? Chill beats. Overwatered? Oh no, the wet blanket track!
+### 👨‍💻 Team Members  
+- **Team Lead:** Adarsh A M  
+- **Member 2:** Adithya Krishna  
 
-Because plants deserve a soundtrack too.
+---
 
-🤦 The Problem (that nobody asked to solve)
-Plants can’t text you when they’re thirsty.
+## 📝 Project Description  
+**MoodGrow** is a hilariously fun, totally unnecessary project that uses an ESP32 and a soil moisture sensor 🌿 to detect your plant’s mood and plays songs on a website 🎵 accordingly.  
 
-Soil moisture sensors just beep or show numbers — boring!
+- Dry soil? Sad tunes.  
+- Well-watered? Chill beats.  
+- Overwatered? The dreaded wet blanket track!  
 
-No music for the plant feels = no real empathy.
+Because even plants deserve a soundtrack.  
 
-💡 The Solution (that nobody expected)
-ESP32 measures soil moisture and sends data to Firebase.
+---
 
-A web app listens live and plays different songs depending on soil moisture level.
+## 🤦 The Problem (that nobody asked to solve)  
+- Plants can’t text you when they’re thirsty.  
+- Soil moisture sensors just beep or show numbers — boring!  
+- No music = no empathy for your green friends.  
 
-Brings plant mood swings to your ears with fun audio tracks.
+---
 
-Because watering plants should be a party, not a chore.
+## 💡 The Solution (that nobody expected)  
+- ESP32 measures soil moisture and sends data to Firebase.  
+- A web app listens live and plays different songs based on moisture levels.  
+- Brings plant mood swings to your ears with fun audio tracks.  
 
-🛠 Technical Details
-💻 Software
-Microcontroller: ESP12
+Watering plants should be a party, not a chore.  
 
-Languages: C++ (Arduino IDE), HTML, JavaScript
+---
 
-Cloud: Firebase Realtime Database
+## 🛠 Technical Details
 
-Frontend: Simple web app with Firebase SDK
+### 💻 Software  
+- Microcontroller: ESP32 Dev Board  
+- Languages: C++ (Arduino IDE), HTML, JavaScript  
+- Cloud: Firebase Realtime Database  
+- Frontend: Simple web app using Firebase SDK  
 
-📱 Hardware
-ESP32 Dev Board
+### 📱 Hardware  
+- ESP32 Dev Board  
+- Analog Soil Moisture Sensor  
+- USB cable for programming  
+- WiFi hotspot (mobile or router)  
 
-Soil moisture sensor (analog)
+---
 
-USB cable for programming
+## ⚙ Implementation  
 
-WiFi hotspot (mobile or router)
-
-⚙️ Implementation
-📥 Setup
-bash
-Copy
-Edit
+### 📥 Setup  
+```bash
 # Clone repo (if available)
-git clone <useless>
+git clone <repo-url>
 cd MoodGrow
-🚀 Run
-Flash ESP32 with provided Arduino code (update WiFi & Firebase config)
+```
 
-Open Serial Monitor (115200 baud) to check sensor and Firebase connection
+### 🚀 Run  
+1. Flash ESP32 with the Arduino code provided (update WiFi & Firebase config).  
+2. Open Serial Monitor at 115200 baud to verify sensor and Firebase connectivity.  
+3. Open the web app in a modern browser.  
+4. Watch as your plant’s mood translates into music!  
 
-Open the web app in a modern browser
+---
 
-Watch as your plant’s mood translates into music
+## 📸 Project Documentation  
 
-📸 Project Documentation
-Screenshots
-![HARDWARE](moodgrow.png)
-Real-time soil moisture values and Firebase updates
+### Screenshots  
+![HARDWARE](moodgrow.png)  
+Real-time soil moisture values updating Firebase  
 
-![Web App]
-Music player reacts to plant moods with different songs
+![Web App]  
+Music player reacts to plant moods with different songs  
 
-Diagrams
-![System Architecture]
-How data flows from soil to songs
+### Diagrams  
+![System Architecture]  
+Data flow from soil sensor → ESP32 → Firebase → Web player  
 
-🎥 Project Demo
-![Video]("https://drive.google.com/file/d/1hz3_JYkgy1wzwo0hhS8U8BtxVDqX_XIU/view?usp=drivesdk") 
-See MoodGrow in action — when the soil’s dry, the music changes instantly!
+---
 
-👨‍💻 Team Contributions
-Adarsh A M: Project lead, Firebase integration, web app design
+## 🎥 Project Demo  
+[Watch MoodGrow in action](https://drive.google.com/file/d/1hz3_JYkgy1wzwo0hhS8U8BtxVDqX_XIU/view?usp=drivesdk)  
+See how the music changes instantly with soil moisture levels!  
 
-Adithya Krishna: ESP32 coding, sensor calibration, serial debugging
+---
 
-Made with ❤️, soil vibes 🌱, and random tunes 🎶 at TinkerHub Useless Projects
+## 👨‍💻 Team Contributions  
+- **Adarsh A M:** Project lead, Firebase integration, web app design  
+- **Adithya Krishna:** ESP32 coding, sensor calibration, serial debugging  
 
+---
+
+Made with ❤, soil vibes 🌱, and random tunes 🎶 at TinkerHub Useless Projects  
