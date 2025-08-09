@@ -78,7 +78,7 @@ Diagrams
 How data flows from soil to songs
 
 🎥 Project Demo
-![Video](https://drive.google.com/file/d/1hz3_JYkgy1wzwo0hhS8U8BtxVDqX_XIU/view?usp=drivesdk) 
+![Video]("https://drive.google.com/file/d/1hz3_JYkgy1wzwo0hhS8U8BtxVDqX_XIU/view?usp=drivesdk") 
 See MoodGrow in action — when the soil’s dry, the music changes instantly!
 
 👨‍💻 Team Contributions
