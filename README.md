@@ -75,7 +75,7 @@ Music player reacts to plant moods with different songs
 
 Diagrams
 ![System Architecture]
-How data flows from soil to song
+How data flows from soil to songs
 
 🎥 Project Demo
 ![Video](https://drive.google.com/file/d/1hz3_JYkgy1wzwo0hhS8U8BtxVDqX_XIU/view?usp=drivesdk) 
